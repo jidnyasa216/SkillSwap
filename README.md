@@ -1,4 +1,4 @@
-# 🤝 SkillSwap - Peer-to-Peer Skill Exchange Platform
+#  SkillSwap - Peer-to-Peer Skill Exchange Platform
 
 ![React](https://img.shields.io/badge/React-18.3-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
@@ -11,33 +11,33 @@
 
 ---
 
-## ✨ Features
+##  Features
 
-### 🔍 Discovery & Matching
+###  Discovery & Matching
 - **Interactive Explore Page**: Search and filter members by skill name, category (Tech, Design, Languages, Music, Academics, etc.), proficiency level (Beginner, Intermediate, Expert), and verification status.
 - **Smart Skill Matchmaking**: Discover users whose wanted skills align with what you offer, enabling seamless two-way skill exchange.
 
-### 🔄 Swap Request Lifecycle
+###  Swap Request Lifecycle
 - **Propose Swaps**: Send tailored exchange requests specifying "I teach X in return for learning Y" along with custom messages and preferred schedules.
 - **Request Management**: Track inbound and outbound swap proposals with statuses (`Pending`, `Accepted`, `Rejected`, `Ongoing`, `Completed`).
 - **Session Scheduling**: Coordinate convenient meetups or video sessions directly through the app.
 
-### 💬 Real-Time In-App Messaging
+###  Real-Time In-App Messaging
 - **Chat System**: Integrated messaging platform connected to each active swap request.
 - **Attachments & Media**: Share documents, links, and learning resources directly inside the chat.
 
-### 🛡️ Trust & Safety
+###  Trust & Safety
 - **Verification System**: Users can submit College IDs or skill credentials for administrative approval to receive verified badges.
 - **Trust Score & Ratings**: Post-swap rating (1–5 stars) and feedback mechanism to calculate trust scores and ensure community safety.
 - **Safety Controls**: Block unsupportive users and report policy violations.
 
-### 👑 Admin Control Panel
+###  Admin Control Panel
 - **Verification Management**: Review and approve/reject submitted college documents and skill certificates.
 - **Platform Analytics**: Monitor active swaps, registered profiles, and user trust metrics.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Frontend**: [React 18](https://react.dev/), [TypeScript](https://www.typescriptlang.org/), [Vite](https://vitejs.dev/)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/), PostCSS, [Lucide React](https://lucide.dev/) (Iconography)
@@ -47,7 +47,7 @@
 
 ---
 
-## 🗄️ Database Architecture
+##  Database Architecture
 
 SkillSwap uses PostgreSQL hosted on Supabase with Row Level Security (RLS) policies protecting every table:
 
@@ -111,7 +111,7 @@ erDiagram
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 SkillSwap/
@@ -157,7 +157,7 @@ SkillSwap/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -206,7 +206,7 @@ The application will be available at `http://localhost:5173`.
 
 ---
 
-## 📜 Available Scripts
+##  Available Scripts
 
 | Command | Description |
 |---|---|
@@ -218,6 +218,4 @@ The application will be available at `http://localhost:5173`.
 
 ---
 
-## 🛡️ License
 
-This project is licensed under the [MIT License](LICENSE).
